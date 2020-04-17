@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div id = course> 
+    <h1> Introduction to the World of Programming </h1>
+    <h2> <span id = "student name">Student name:</span> Diana Mkrtchyan </h2>
+    <h3> <span id = "major">Major:</span> Business </h3>
+    <h3> <span id = "student_ID">Student ID:</span> A09170317 </h3>
+  
+    </div>
+    <table id = table>
+      <tr>
+        <th> Assignments </th>
+        <th> Percentages </th>
+        <th> Grades </th>
+      </tr>
+      <tr>
+        <td>Participation </td>
+        <td <span id="participationPercent">10</span>%</td>
+        <td><input type ="number" id="participationGrade"></td>
+      </tr>
+      <tr>
+        <td>Quiz</td>
+        <td <span id="quizPercent">10</span>%</td>
+        <td><input type ="number" id="quizGrade"></td>
+      </tr>
+      <tr>
+        <td>Homework</td>
+        <td <span id="homeworkPercent">10</span>%</td>
+        <td><input type ="number" id="homeworkGrade"></td>
+      </tr>
+      <tr>
+        <td>ProjectM1 </td>
+        <td <span id="projectM1Percent">35</span>%</td>
+        <td><input type ="number" id="projectM1Grade"></td>
+      </tr>
+      <tr>
+        <td>ProjectM2 </td>
+        <td> <span id="projectM2Percent">35</span>%</td>
+        <td><input type ="number" id="projectM2Grade"></td>
+      </tr>
+    </table>
+
+    <input type="button" value="Calculate your grade" onclick="TotalGrade()">
+
+    <h2> Final Grade: <span id="TotalGrade"></span> </h2>
+    <div id="TotalGrade"></div>
+ 
+   <script = src="script.js"></script>
+  </body>
+</html>
