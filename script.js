@@ -1,9 +1,9 @@
-function TotalGrade() {
-  var participationGrade = parseFloat(document.getElementById("participationGrade").innerHTML)
-  var quizGrade = parseFloat(document.getElementById("quizGrade").innerHTML)
-  var homeworkGrade = parseFloat(document.getElementById("homeworkGrade").innerHTML)
-  var projectM1Grade = parseFloat(document.getElementById("projectM1Grade").innerHTML)
-  var projectM2Grade = parseFloat(document.getElementById("projectM2Grade").innerHTML)
+function CalculateGrade() {
+  var participationGrade = parseFloat(document.getElementById("participationGrade").value)
+  var quizGrade = parseFloat(document.getElementById("quizGrade").value)
+  var homeworkGrade = parseFloat(document.getElementById("homeworkGrade").value)
+  var projectM1Grade = parseFloat(document.getElementById("projectM1Grade").value)
+  var projectM2Grade = parseFloat(document.getElementById("projectM2Grade").value)
 
   var participationPercent = parseInt(document.getElementById("participationPercent").innerHTML)
   var quizPercent = parseInt(document.getElementById("quizPercent").innerHTML)
@@ -20,6 +20,6 @@ function TotalGrade() {
   var FinalGrade = Participation + Quiz + Homework + ProjectM1 + ProjectM2
 
   console.log(FinalGrade)
-  var display=document.getElementById('TotalGrade');
+  var display=document.getElementById('CalculateGrade');
    display.innerHTML=FinalGrade;
 }
