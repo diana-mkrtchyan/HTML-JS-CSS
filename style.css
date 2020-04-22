@@ -5,7 +5,7 @@ body, html {
 table, th, td {
   border: 1px solid black;
 }
-table {
+#table {
   background-color: rgb(128, 86, 177);
   color: black;
 }
